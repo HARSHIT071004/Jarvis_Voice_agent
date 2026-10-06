@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Basic Test Page</title>
+</head>
+<body>
+  <h1>Welcome to the Basic Page</h1>
+  <h2>Overview</h2>
+  <p>This is the primary paragraph of the basic test page. It contains enough
+  meaningful text for extraction tests and describes the features available.</p>
+  <p id="status">Status: idle</p>
+  <a id="nav-link" href="navigation.html">Go to navigation</a>
+  <button id="more" onclick="document.getElementById('status').innerText='Status: expanded!'; this.innerText='Less';">
+    More info
+  </button>
+  <button id="next-btn">Next</button>
+  <input id="search" name="q" placeholder="Search docs" type="text">
+  <div id="spacer" style="height:3000px"></div>
+  <footer>Footer boilerplate for scrolling.</footer>
+</body>
+</html>

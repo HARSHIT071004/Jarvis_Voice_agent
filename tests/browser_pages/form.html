@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form Test Page</title>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form id="theform" onsubmit="event.preventDefault(); document.getElementById('confirm').innerText='Message sent!';">
+    <label for="searchbox">Search</label>
+    <input id="searchbox" name="search" type="text" placeholder="Search docs">
+
+    <label for="namebox">Your name</label>
+    <input id="namebox" name="name" type="text" placeholder="Full name">
+
+    <label for="pw">Password</label>
+    <input id="pw" name="password" type="password" placeholder="Password">
+
+    <label for="cv">Attach resume</label>
+    <input id="cv" name="resume" type="file">
+
+    <button id="preview" type="button" onclick="document.getElementById('confirm').innerText='Preview shown';">
+      Preview
+    </button>
+    <button id="sendbtn" type="submit">Send</button>
+  </form>
+  <p id="confirm"></p>
+</body>
+</html>

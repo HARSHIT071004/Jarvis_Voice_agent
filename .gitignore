@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+models/
+*.log
+.pytest_cache/
+
+# Phase 3 persistent memory (never commit personal data)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# All markdown docs stay local (per owner request)
+*.md
+
+# Local junk / generated audio / build artifacts
+never-used.json
+*.wav
+*.mp3
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+voice_test_*.txt
+hotwords.txt
+keywords_raw.txt

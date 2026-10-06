@@ -1,0 +1,3 @@
+Quarterly sample report for Jarvis browser download tests.
+Line 2: deterministic content with a known size.
+Line 3: padding padding padding padding padding padding.
